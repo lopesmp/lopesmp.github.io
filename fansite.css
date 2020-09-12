@@ -1,4 +1,39 @@
+*{
+  text-decoration-style: none;
+}
+
+
+
+h2 { text-align: center;
+    color: green;
+}
+
+
 #welcome{
   font-size: 48px;
   color: rgb(88, 196, 234);
+}
+
+.box{
+  
+  margin: auto;
+  width: 50%;
+  padding: 10px;       
+  border: 5px solid black;
+}    
+
+  img{
+   
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+
+#trailer{
+  font-size: 24px;
+  color: red;
+}
+
+.summary{
+  font-family: Arial, Helvetica, sans-serif;
 }
